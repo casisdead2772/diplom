@@ -1,0 +1,11 @@
+export const TEACHER_ROLE_NAME = 'teacher'
+
+export const STATUS_RESERVE_LESSON_NEW = 1
+export const STATUS_RESERVE_LESSON_APPROVED = 2
+export const STATUS_RESERVE_LESSON_CANCEL = 3
+
+export const STATUS_LESSON_NEW = 1
+export const STATUS_LESSON_STARTED = 2
+export const STATUS_LESSON_COMPLETED = 3
+export const STATUS_LESSON_MISSED = 4
+export const STATUS_LESSON_CANCEL = 5

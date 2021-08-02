@@ -1,0 +1,245 @@
+{
+  "good": "Bon",
+  "bad": "Mauvais",
+  "here": "ici",
+  "address": "Adresse",
+  "backlinks": "Références",
+  "translations": {
+    "en": "Anglais",
+    "fr": "Français"
+  },
+  "routes": {
+    "home": "Accueil",
+    "login": "Login",
+    "forgot_password": "Oubli de mot de passe",
+    "reset_password": "Réinitialisation du mot de passe",
+    "register": "Inscription",
+    "profile": "Compte",
+    "dashboard": "Tableau de bord",
+    "help": "Aide",
+    "settings": "Paramètres",
+    "feedback": "Feedback",
+    "not_found": "Non trouvé"
+  },
+  "auth": {
+    "username": "Utilisateur",
+    "password": "Mot de passe",
+    "remember": "Se souvenir",
+    "sign_in": "Se connecter",
+    "forgot_password": "Oubli de mot de passe ?",
+    "send": "Envoyer",
+    "password_confirmation": "Confirmation du mot de passe",
+    "reset": "Réinitialiser",
+    "name": "Nom utilisateur",
+    "email": "Email",
+    "register": "S'inscrire"
+  },
+  "profile": {
+    "account": "Mon compte",
+    "password": "Mot de passe",
+    "name": "Nom",
+    "email": "Email",
+    "current_password": "Mot de passe courant",
+    "password_confirmation": "Confirmation du mot de passe",
+    "update": "Mettre à jour",
+    "account_updated": "Compte mis à jour",
+    "password_changed": "Mot de passe changé"
+  },
+  "users": {
+    "impersonate": "Usurper",
+    "enable": "Activer",
+    "disable": "Désactiver",
+    "stop_impersonate": "Arrêter usurpation",
+    "logged_as": "Vous êtes actuellement connecté en tant que {0}, cliquer {1} pour arrêter le mode d'usurpation."
+  },
+  "menu": {
+    "login": "Login",
+    "profile": "Compte",
+    "dashboard": "Tableau de bord",
+    "help": "Aide",
+    "settings": "Paramètres",
+    "feedback": "Feedback",
+    "other": "Autre",
+    "bookstore": "Bookstore"
+  },
+  "authors": {
+    "last_books": "Derniers livres",
+    "all_books": "Tous ses livres"
+  },
+  "tabs": {
+    "attributes": "Attributs",
+    "summary": "Résumé"
+  },
+  "resources": {
+    "publishers": {
+      "name": "Éditeur | Éditeurs",
+      "titles": {
+        "list": "Liste des éditeurs",
+        "create": "Créer un nouvel éditeur",
+        "edit": "Editer l'éditeur {name}",
+        "show": "Détail de l'éditeur {name}"
+      },
+      "fields": {
+        "id": "ID",
+        "name": "Nom",
+        "logo": "Logo",
+        "local": "Locaux",
+        "type": "Type de société",
+        "description": "Description",
+        "founder": "Fondateur",
+        "headquarter": "Siège",
+        "url": "Url",
+        "email": "Email",
+        "active": "Actif",
+        "books": "Livres",
+        "users": "Utilisateurs",
+        "address": {
+          "street": "Rue",
+          "postcode": "Code postal",
+          "city": "Ville"
+        },
+        "opening_date": "Date d'ouverture",
+        "books_count": "Nombre de livres"
+      },
+      "enums": {
+        "type": {
+          "sarl": "SARL",
+          "eurl": "EURL",
+          "sa": "SA",
+          "sas": "SAS",
+          "sasu": "SASU",
+          "snc": "SNC",
+          "scp": "SCP"
+        }
+      }
+    },
+    "authors": {
+      "name": "Auteur | Auteurs",
+      "titles": {
+        "list": "Liste des auteurs",
+        "create": "Créer un nouvel auteur",
+        "edit": "Editer l'auteur {name}",
+        "show": "Détail de l'auteur {name}"
+      },
+      "fields": {
+        "id": "ID",
+        "name": "Nom",
+        "photo": "Photo",
+        "description": "Description",
+        "books": "Livres",
+        "users": "Utilisateurs",
+        "backlinks": {
+          "date": "Date",
+          "url": "Url"
+        }
+      }
+    },
+    "categories": {
+      "name": "Catégorie | Catégories",
+      "titles": {
+        "list": "Liste des catégories"
+      },
+      "fields": {
+        "id": "ID",
+        "name": "Nom"
+      }
+    },
+    "books": {
+      "name": "Livre | Livres",
+      "titles": {
+        "list": "Liste des livres",
+        "create": "Créer un nouveau livre",
+        "edit": "Editer le livre {title}",
+        "show": "Détail du livre {title}"
+      },
+      "fields": {
+        "id": "ID",
+        "isbn": "ISBN",
+        "title": "Titre",
+        "cover": "Couverture",
+        "extract": "Extrait",
+        "category": "Catégorie",
+        "description": "Description",
+        "summary": "Résumé",
+        "publication_date": "Date de publication",
+        "formats": "Formats",
+        "publisher": "Éditeur",
+        "reviews": "Commentaires",
+        "authors": "Auteurs",
+        "price": "Prix",
+        "commentable": "Commentable",
+        "tags": "Etiquettes",
+        "published_before": "Publié avant",
+        "published_after": "Publié après",
+        "pricier_than": "Plus cher que",
+        "cheaper_than": "Moins cher que"
+      },
+      "enums": {
+        "formats": {
+          "pocket": "Poche",
+          "paperback": "Broché",
+          "pdf": "PDF",
+          "epub": "Epub",
+          "kindle": "Kindle"
+        }
+      }
+    },
+    "reviews": {
+      "name": "Commentaire | Commentaires",
+      "titles": {
+        "list": "Liste des commentaires",
+        "create": "Créer un nouveau commentaire",
+        "edit": "Editer le commentaire {author}",
+        "show": "Détail du commentaire {author}"
+      },
+      "fields": {
+        "id": "ID",
+        "status": "Statut",
+        "body": "Corps",
+        "publication_date": "Date de publication",
+        "author": "Auteur",
+        "rating": "Note",
+        "quality": "Qualité",
+        "book": "Livre",
+        "published_before": "Publié avant",
+        "published_after": "Publié après"
+      },
+      "enums": {
+        "status": {
+          "published": "Publié",
+          "pending": "En cours",
+          "denied": "Refusé"
+        }
+      }
+    },
+    "users": {
+      "name": "Utilisateur | Utilisateurs",
+      "titles": {
+        "list": "Liste des utilisateurs",
+        "create": "Créer un nouvel utilisateur",
+        "edit": "Editer l'utilisateur {name}",
+        "show": "Détail de l'utilisateur {name}"
+      },
+      "fields": {
+        "id": "ID",
+        "name": "Nom",
+        "email": "Email",
+        "password": "Mot de passe",
+        "password_confirmation": "Confirmation du Mot de passe",
+        "active": "Actif",
+        "roles": "Rôles",
+        "publishers": "Editeurs",
+        "authors": "Auteurs",
+        "created_at": "Date de création",
+        "updated_at": "Date de modification"
+      },
+      "enums": {
+        "roles": {
+          "admin": "Admin",
+          "editor": "Editeur",
+          "author": "Auteur"
+        }
+      }
+    }
+  }
+}

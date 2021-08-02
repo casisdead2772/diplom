@@ -1,0 +1,117 @@
+{
+  "good": "Good",
+  "bad": "Bad",
+  "here": "here",
+  "address": "Address",
+  "backlinks": "Backlinks",
+  "translations": {
+    "en": "English",
+    "fr": "French"
+  },
+  "routes": {
+    "home": "Home",
+    "login": "Login",
+    "forgot_password": "Forgot password",
+    "reset_password": "Reset password",
+    "register": "Register",
+    "profile": "Profile",
+    "dashboard": "Dashboard",
+    "help": "Help",
+    "settings": "Settings",
+    "feedback": "Feedback",
+    "not_found": "Not found"
+  },
+  "auth": {
+    "username": "Username",
+    "password": "Password",
+    "remember": "Remember",
+    "sign_in": "Sign in",
+    "forgot_password": "Forgot password ?",
+    "send": "Send",
+    "password_confirmation": "Password confirmation",
+    "reset": "Reset",
+    "name": "Account name",
+    "email": "Email",
+    "register": "Register"
+  },
+  "profile": {
+    "account": "Account",
+    "password": "Password",
+    "name": "Name",
+    "email": "Email",
+    "current_password": "Current password",
+    "password_confirmation": "Password confirmation",
+    "update": "Update",
+    "account_updated": "Account updated",
+    "password_changed": "Password changed"
+  },
+  "users": {
+    "impersonate": "Impersonate",
+    "enable": "Enable",
+    "disable": "Disable",
+    "stop_impersonate": "Stop impersonate",
+    "logged_as": "You are actually logged as {0}, click {1} link in order to stop impersonate mode."
+  },
+  "menu": {
+    "login": "Login",
+    "profile": "Profile",
+    "dashboard": "Dashboard",
+    "help": "Help",
+    "settings": "Settings",
+    "feedback": "Feedback",
+    "other": "Other",
+    "bookstore": "Bookstore"
+  },
+  "authors": {
+    "last_books": "Last books",
+    "all_books": "All books"
+  },
+  "tabs": {
+    "attributes": "Attributes",
+    "summary": "Summary"
+  },
+  "resources": {
+    "publishers": {
+      "enums": {
+        "type": {
+          "sarl": "SARL",
+          "eurl": "EURL",
+          "sa": "SA",
+          "sas": "SAS",
+          "sasu": "SASU",
+          "snc": "SNC",
+          "scp": "SCP"
+        }
+      }
+    },
+    "books": {
+      "enums": {
+        "formats": {
+          "pocket": "Pocket",
+          "paperback": "Paperback",
+          "pdf": "PDF",
+          "epub": "Epub",
+          "kindle": "Kindle"
+        }
+      }
+    },
+    "reviews": {
+      "enums": {
+        "status": {
+          "published": "Published",
+          "pending": "Pending",
+          "denied": "Denied"
+        }
+      }
+    },
+    "users": {
+      "enums": {
+        "roles": {
+          "admin": "Admin",
+          "editor": "Editor",
+          "author": "Author"
+        }
+      }
+    }
+  }
+}

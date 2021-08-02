@@ -1,0 +1,99 @@
+<template>
+  <component
+    :is="tag"
+    :class="classes"
+    v-bind="$attrs"
+    v-on="$listeners"
+  >
+    <template v-if="title">
+      {{ title }}
+    </template>
+
+    <slot v-else />
+  </component>
+</template>
+
+<script>
+export default {
+  name: 'BaseHeading',
+
+  inject: {
+    theme: {
+      default: () => ({ isDark: true })
+    },
+    heading: {
+      default: () => ({ align: 'left' })
+    }
+  },
+
+  provide () {
+    return {
+      heading: {
+        align: this.align
+      }
+    }
+  },
+
+  props: {
+    align: {
+      type: String,
+      default () {
+        return this.heading.align
+      }
+    },
+    dense: {
+      type: Boolean,
+      default () {
+        return this.isDense
+      }
+    },
+    size: {
+      type: String,
+      default: 'text-h3'
+    },
+    space: {
+      type: [Number, String],
+      default: 4
+    },
+    mobileSize: {
+      type: String,
+      default: 'text-h4'
+    },
+    mobileBreakpoint: {
+      type: [Number, String],
+      default: 768
+    },
+    tag: {
+      type: String,
+      default: 'h1'
+    },
+    title: {
+      type: String,
+      default: null
+    },
+    weight: {
+      type: String,
+      default: 'black'
+    }
+  },
+
+  computed: {
+    classes () {
+      const classes = [
+        this.fontSize,
+          `font-weight-${this.weight}`,
+          `mb-${this.space}`,
+          `text-${this.align}`,
+          this.theme.isDark && 'third--text'
+      ]
+
+      return classes
+    },
+    fontSize () {
+      return this.$vuetify.breakpoint.width >= this.mobileBreakpoint
+        ? this.size
+        : this.mobileSize
+    }
+  }
+}
+</script>
